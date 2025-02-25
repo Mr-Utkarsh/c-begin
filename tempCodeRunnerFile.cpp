@@ -1,0 +1,12 @@
+ cout<<"the ans of a<b is = "<<(a<b);
+    cout<<endl;
+    cout<<"the ans of a>b is = "<<(a>b);
+    cout<<endl;
+    cout<<"the ans of a<=b is = "<<(a<=b);
+    cout<<endl;
+    cout<<"the ans of a>=b is = "<<(a>=b);
+    cout<<endl;
+    cout<<"the ans of a!=b is = "<<(a!=b);
+    cout<<endl;
+    cout<<"the ans of a==b is = "<<(a==b);
+    cout<<endl;

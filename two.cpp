@@ -21,18 +21,18 @@ int main() {
     // cout<<endl;
 
     // relational operators 
-    cout<<"the ans of a<b is = "<<(a<b);
-    cout<<endl;
-    cout<<"the ans of a>b is = "<<(a>b);
-    cout<<endl;
-    cout<<"the ans of a<=b is = "<<(a<=b);
-    cout<<endl;
-    cout<<"the ans of a>=b is = "<<(a>=b);
-    cout<<endl;
-    cout<<"the ans of a!=b is = "<<(a!=b);
-    cout<<endl;
-    cout<<"the ans of a==b is = "<<(a==b);
-    cout<<endl;
+    // cout<<"the ans of a<b is = "<<(a<b);
+    // cout<<endl;
+    // cout<<"the ans of a>b is = "<<(a>b);
+    // cout<<endl;
+    // cout<<"the ans of a<=b is = "<<(a<=b);
+    // cout<<endl;
+    // cout<<"the ans of a>=b is = "<<(a>=b);
+    // cout<<endl;
+    // cout<<"the ans of a!=b is = "<<(a!=b);
+    // cout<<endl;
+    // cout<<"the ans of a==b is = "<<(a==b);
+    // cout<<endl;
 
     // Assignment operators
     // cout<<"the ans of a+=b is = "<<(a+=b);
@@ -47,11 +47,18 @@ int main() {
     // cout<<endl;
 
     //Logical Operators
+    // and &&
+    // or || 
+    // not !
     
     //Bitwise Operator
     // and&
-    // or||
+    // or|
     // not!
+    //xor^
+    //left shift<<
+    //right shift>>
+
 
     //Ternary Operator
     // (a>b)?cout<<"a is greater":cout<<"b is smaller";
@@ -65,4 +72,5 @@ int main() {
     // c=a&&b;
     // cout<<c<<endl;;
     // cout<<!c;
+    
 }

@@ -101,7 +101,7 @@ int main() {
 
 
    //Q4 write a program to convert celsius to fahrenheit;
-    // int c;
+    // float c;
     // cout<<"enter the celsius = "<<endl;
     // cin>>c;
     // cout<<"the fahrenheit is = "<<(c*9/5)+32<<endl;
@@ -119,5 +119,83 @@ int main() {
     // cout<<"enter the number = "<<endl;
     // cin>>a;
     // cout<<"the cube of a number is = "<<a*a*a<<endl;
+
+    //Control flow statement:- it includes 3 types of statements:-
+    //1 conditional statement-- there are 4 types:- single,BI,Ladder,nested
+    //2 transfer statement--there are 3 types:- Break,continue,switch
+    //3 looping statement-there are 3 types:- do while,while,for
+
+    //1 conditional statement :-
+    //1 single conditional statement :- singal candition will be executed if and only if the condition is true otherwise it will not be executed
+    // syntax:- if(condition/expression)
+    // {
+    // statement
+    // }
+    // int age;
+    // cout<<"enter the age = "<<endl;
+    // cin>>age;
+    // if(age>=18)
+    // {
+    //     cout<<"you are eligible for voting"<<endl;
+    // }
+
+
+    //condition with expression example
+    // int a = 1;
+    // if (a,a--,a++)
+    // {
+    //     cout<<"true"<<endl;
+    // }
+
+    //2 BI conditional statement:- two conditions will be executed if and only if the condition is true otherwise it will not be executed
+    // syntax:- if(condition/expression)
+    // {
+    // statement
+    // }
+    // else
+    // {
+    // statement
+    // }
+
+    //Q7 write a program to find out the given no is even or odd;
+    // int a;
+    // cout<<"enter the number = "<<endl;
+    // cin>>a;
+    // if(a%2==0)
+    // {
+    //     cout<<"the given no is even"<<endl;
+    // }
+    // else
+    // {
+    //     cout<<"the given no is odd"<<endl;
+    // }    
+
+    //Q8 write a program to find out the large no between 2 integers;
+    // int a,b;
+    // cout<<"enter 1 no = "<<endl;
+    // cin>>a;
+    // cout<<"enter 2 no = "<<endl;
+    // cin>>b;
+    // if(a>b)
+    // {
+    //     cout<<"the large no is = "<<a<<endl;
+    // }
+    // else
+    // {
+    //     cout<<"the large no is = "<<b<<endl;
+    // }
+
+    //Q9 write a program to find out the given character is vowel or consonant;
+    // char ch;
+    // cout<<"enter the character = "<<endl;
+    // cin>>ch;
+    // if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+    // {
+    //     cout<<"the given character is vowel"<<endl;
+    // }
+    // else
+    // {
+    //     cout<<"the given character is consonant"<<endl;
+    // }
 
 }

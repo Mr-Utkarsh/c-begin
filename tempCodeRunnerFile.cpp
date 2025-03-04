@@ -1,12 +1,1 @@
-//  cout<<"the ans of a<b is = "<<(a<b);
-//     cout<<endl;
-//     cout<<"the ans of a>b is = "<<(a>b);
-//     cout<<endl;
-//     cout<<"the ans of a<=b is = "<<(a<=b);
-//     cout<<endl;
-//     cout<<"the ans of a>=b is = "<<(a>=b);
-//     cout<<endl;
-//     cout<<"the ans of a!=b is = "<<(a!=b);
-//     cout<<endl;
-//     cout<<"the ans of a==b is = "<<(a==b);
-//     cout<<endl;
+    // cout<<"the square root of a number is = "<<a*a<<endl;

@@ -189,7 +189,7 @@ int main() {
     // char ch;
     // cout<<"enter the character = "<<endl;
     // cin>>ch;
-    // if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+    // if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U' )
     // {
     //     cout<<"the given character is vowel"<<endl;
     // }
@@ -197,5 +197,121 @@ int main() {
     // {
     //     cout<<"the given character is consonant"<<endl;
     // }
+
+   //3 nested example //Q10   4 digit password program 
+//     int pw,otp;
+//     int opw = 2025;
+//     int ootp = 1000;
+//    cout<<"create password = ";
+//    cin>>pw;
+   
+//     if (pw>=1000 && pw<=9999)
+//     {
+       
+//       if (pw==opw)
+//         {
+//             cout<<"enter the otp = ";
+//             cin>>otp;
+//             if (otp==ootp)
+//             {
+//                cout<<"welcome";
+//             }
+//             else
+//             {
+//                 cout<<"invalid otp";
+//             }
+            
+//         }
+//         else
+//         {
+//             cout<<"wrong password";
+//         }  
+//     }
+//     else
+//     {
+//         cout<<"invalid";
+//     }
+    
+    //ladder conditional 
+    // syntax:-
+    // if (condition)
+    // {
+    //     /* code */
+    // }
+    // else if (condition)
+    // {
+    //     /* code */
+    // }
+    // else
+    // {
+    //     /* code */
+    // }
+    
+    //Q check btwn 3 numbers either one is larger or all are same?
+    
+    // int a,b,c;
+    // cout<<"enter the value of a = ";
+    // cin>>a;
+    // cout<<"enter the value of b = ";
+    // cin>>b;
+    // cout<<"enter the value of c = ";
+    // cin>>c;
+    // if (a==b && b==c)
+    // {
+    //     cout<<"all are same";
+    // }
+    // else if (a>b && a>c)
+    // {
+    //     cout<<"a is larger";
+    // }
+    // else if (b>a && b>c)
+    // {
+    //     cout<<"b is larger";
+    // }
+    // else if (a == b && a > c)
+    // {
+    //     cout<<"a and b are larger";
+    // }
+    // else if (a == c && a > b)
+    // {
+    //     cout<<"a and c are larger";
+    // }
+    // else if (b == c && b > a)
+    // {
+    //     cout<<"b and c are larger";
+    // }
+    // else
+    // {
+    //     cout<<"c is larger";
+    // }
+
+    //Q11 write a program to find out the percentage between 3 subjects and total marks is 300 and give the grades according to the percentage for 1st division 60% and above,2nd division 50% to 59% ,3rd division 35% and above and fail below 33%.;
+
+    int Physics,Chemistry,Maths;
+    cout<<"enter the marks of Physics = ";
+    cin>>Physics;
+    cout<<"enter the marks of Chemistry = ";
+    cin>>Chemistry;
+    cout<<"enter the marks of Maths = ";
+    cin>>Maths;
+    float total = Physics + Chemistry + Maths;
+    float percentage = (total / 300.0) * 100;
+    cout<<"the percentage is = "<<percentage<<endl;
+    if (percentage>=60)
+    {
+        cout<<"1st division";
+    }
+    else if (percentage>=50 && percentage<=59)
+    {
+        cout<<"2nd division";
+    }
+    else if (percentage>=35 && percentage<=49)
+    {
+        cout<<"3rd division";
+    }
+    else
+    {
+        cout<<"fail";
+    }
 
 }

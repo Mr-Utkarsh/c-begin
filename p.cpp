@@ -287,31 +287,42 @@ int main() {
 
     //Q11 write a program to find out the percentage between 3 subjects and total marks is 300 and give the grades according to the percentage for 1st division 60% and above,2nd division 50% to 59% ,3rd division 35% and above and fail below 33%.;
 
-    int Physics,Chemistry,Maths;
-    cout<<"enter the marks of Physics = ";
-    cin>>Physics;
-    cout<<"enter the marks of Chemistry = ";
-    cin>>Chemistry;
-    cout<<"enter the marks of Maths = ";
-    cin>>Maths;
-    float total = Physics + Chemistry + Maths;
-    float percentage = (total / 300.0) * 100;
-    cout<<"the percentage is = "<<percentage<<endl;
-    if (percentage>=60)
-    {
-        cout<<"1st division";
-    }
-    else if (percentage>=50 && percentage<=59)
-    {
-        cout<<"2nd division";
-    }
-    else if (percentage>=35 && percentage<=49)
-    {
-        cout<<"3rd division";
-    }
-    else
-    {
-        cout<<"fail";
-    }
+    // int Physics,Chemistry,Maths;
+    // cout<<"enter the marks of Physics = ";
+    // cin>>Physics;
+    // cout<<"enter the marks of Chemistry = ";
+    // cin>>Chemistry;
+    // cout<<"enter the marks of Maths = ";
+    // cin>>Maths;
+    // float total = Physics + Chemistry + Maths;
+    // float percentage = (total / 3;
+    // cout<<"the percentage is = "<<percentage<<endl;
+    // if (percentage>=60 && percentage<=100)
+    // {
+    //     cout<<"1st division";
+    // }
+    // else if (percentage>=50 && percentage<=59)
+    // {
+    //     cout<<"2nd division";
+    // }
+    // else if (percentage>=35 && percentage<=49)
+    // {
+    //     cout<<"3rd division";
+    // }
+    // else
+    // {
+    //     cout<<"fail";
+    // }
+
+    // int a,b,c;
+    // cout<<"Enter a : ";
+    // cin>>a;
+    // cout<<"Enter b : ";
+    // cin>>b;
+    // cout<<"Enter c : ";
+    // cin>>c;
+
+    
+    
 
 }
